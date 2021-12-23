@@ -1,0 +1,15 @@
+[project]
+id = "dev.moneyforward.frontend.sample"
+name = "frontend-sample"
+
+[build]
+exclude = [
+  ".git",
+  ".next",
+  ".DS_Store",
+  "node_modules"
+]
+
+[[build.env]]
+name = "NODE_ENV"
+value = "development"
